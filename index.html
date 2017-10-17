@@ -1,10 +1,202 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<h1>My First Heading</h1>
+<style>
+h1 {
+    color: black;
+    font-family: Verdana;
+    font-size: 140%;
+    background-color: red;
+}
+h2 {
+  font-family: verdana;
+  font-size: 110%;
+}
+p  {
+    color: red;
+    font-family: serif;
+    font-size: 80%;
+}
 
-<p>My first paragraph.</p>
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+table#abc {
+    background-image: url("https://i.pinimg.com/236x/25/43/d5/2543d5fe6a35603b89adde46b87149f5.jpg");
+}
+
+</style>
+
+<head>
+  <meta charset="utf-8">
+<title>Garrison's Crew</title>
+</head>
+
+<!--Allt inom body visas på sidan.-->
+<body background="http://10steps.sg/wp-content/uploads//2012/11/White-christmas-light-background.jpg">
+  <h1>Garrison's Depression Crew</h1>
+  <h2>Sub-Header</h2>
+  <!--Headers-->
+  &nbsp;
+  &nbsp;
+<p>Ranks are specified in order:</p>
+<!--Paragrafer-->
+
+<table id="t01">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Rank</th>
+    <th>Country</th>
+    <th>Political ideology</th>
+    <th>Interests</th>
+  </tr>
+  <tr>
+    <td>Garrison</td>
+    <td>17</td>
+    <td>Admin</td>
+    <td>Canada <img class="icon icons8-Canada" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB3UlEQVRoQ+1ZPU/CUBS9jUAUQurHbtwFHXGgvwDCrDjq4D/waxb1F7joKDoT/QU46KjgbtwVKwENYGpemzZR277Xj8drze1G7uvtPefce24bJIj5JcW8fkAAohVEBVCBgAxgCwUkMPDtlgKaAhpLtpeGynLM95m5isx0r9Q0VgACYKLLwyFUgEYWzgCFoUi1UOr2Si93sFKmCWvFIwNA6r3BzOayXljn9B60zDQTCOEA5N0S9Ks7MNk4gdTdtaFAoQyflS2YujiG95qhitMlHMDs6jxIfftlp6VleL18jjYAokDi8ca2yNFiEdRDQ5XIKhBbAGbvp+tHrgqQ+XCbBWEzwPpgs3WcFiJrnlBe5rIHVctpmDzS5tCgUILufl3MHtC9fmPJ0XVooIgrdc4efuyIsSpACiTbNltbp9VqG+/unf/Z0mMFkGw19YFMtpu+AAxzCnysbcMwr4hpIQLAzXVoqMheIK4kDIBZoFcgdoWbucbaQr8ZZn242zcFa45QbNQJwNdCHrSMDIm28UoxyhVB6qkw8dTSf0cWgBMgL19xQhX4dwBoLmQXj5QCCMCFAS4u5Idxv1aMAMJgO9Qh5lUQ77z4Bwdvhmn5UQEaQ7zjqABvhmn5UQEaQ7zj33PBL0AZ150JAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Filip</td>
+    <td>16</td>
+    <td>Political Advisor</td>
+    <td>Sweden <img class="icon icons8-Sweden" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAyElEQVRoQ+2ZTQ5AMBCFdeUMHMLO2gHcxyHcxwGs7RyCM1iRCJKKRNuR0Pq6npl03nsz0x8Veb6U5/uPSOBtBmEABoQIICEhgGL3g4Gk6meXaEOZX7qlTecSzthnrLN17yQAA8ai0Q2R0I4HEkJCGwLMgZMUGGQ3tRFeG53b2Oks5NhExG6qmPSzEAmIMbULAAN2eD1vHR4DTGImsV2dhDeJqQFqgBrgZU7TADey393I7HrAd6z54HibCxiAASECSEgIoNjdewYW0ZXAMX/VO04AAAAASUVORK5CYII="></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Ben</td>
+    <td>Age</td>
+    <td>Political Advisor</td>
+    <td>Canada <img class="icon icons8-Canada" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB3UlEQVRoQ+1ZPU/CUBS9jUAUQurHbtwFHXGgvwDCrDjq4D/waxb1F7joKDoT/QU46KjgbtwVKwENYGpemzZR277Xj8drze1G7uvtPefce24bJIj5JcW8fkAAohVEBVCBgAxgCwUkMPDtlgKaAhpLtpeGynLM95m5isx0r9Q0VgACYKLLwyFUgEYWzgCFoUi1UOr2Si93sFKmCWvFIwNA6r3BzOayXljn9B60zDQTCOEA5N0S9Ks7MNk4gdTdtaFAoQyflS2YujiG95qhitMlHMDs6jxIfftlp6VleL18jjYAokDi8ca2yNFiEdRDQ5XIKhBbAGbvp+tHrgqQ+XCbBWEzwPpgs3WcFiJrnlBe5rIHVctpmDzS5tCgUILufl3MHtC9fmPJ0XVooIgrdc4efuyIsSpACiTbNltbp9VqG+/unf/Z0mMFkGw19YFMtpu+AAxzCnysbcMwr4hpIQLAzXVoqMheIK4kDIBZoFcgdoWbucbaQr8ZZn242zcFa45QbNQJwNdCHrSMDIm28UoxyhVB6qkw8dTSf0cWgBMgL19xQhX4dwBoLmQXj5QCCMCFAS4u5Idxv1aMAMJgO9Qh5lUQ77z4Bwdvhmn5UQEaQ7zjqABvhmn5UQEaQ7zj33PBL0AZ150JAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Brandon</td>
+    <td>Age</td>
+    <td>Political Advisor</td>
+    <td>Canada <img class="icon icons8-Canada" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB3UlEQVRoQ+1ZPU/CUBS9jUAUQurHbtwFHXGgvwDCrDjq4D/waxb1F7joKDoT/QU46KjgbtwVKwENYGpemzZR277Xj8drze1G7uvtPefce24bJIj5JcW8fkAAohVEBVCBgAxgCwUkMPDtlgKaAhpLtpeGynLM95m5isx0r9Q0VgACYKLLwyFUgEYWzgCFoUi1UOr2Si93sFKmCWvFIwNA6r3BzOayXljn9B60zDQTCOEA5N0S9Ks7MNk4gdTdtaFAoQyflS2YujiG95qhitMlHMDs6jxIfftlp6VleL18jjYAokDi8ca2yNFiEdRDQ5XIKhBbAGbvp+tHrgqQ+XCbBWEzwPpgs3WcFiJrnlBe5rIHVctpmDzS5tCgUILufl3MHtC9fmPJ0XVooIgrdc4efuyIsSpACiTbNltbp9VqG+/unf/Z0mMFkGw19YFMtpu+AAxzCnysbcMwr4hpIQLAzXVoqMheIK4kDIBZoFcgdoWbucbaQr8ZZn242zcFa45QbNQJwNdCHrSMDIm28UoxyhVB6qkw8dTSf0cWgBMgL19xQhX4dwBoLmQXj5QCCMCFAS4u5Idxv1aMAMJgO9Qh5lUQ77z4Bwdvhmn5UQEaQ7zjqABvhmn5UQEaQ7zj33PBL0AZ150JAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Matt</td>
+    <td>Age</td>
+    <td>Political Advisor</td>
+    <td>Canada <img class="icon icons8-Canada" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB3UlEQVRoQ+1ZPU/CUBS9jUAUQurHbtwFHXGgvwDCrDjq4D/waxb1F7joKDoT/QU46KjgbtwVKwENYGpemzZR277Xj8drze1G7uvtPefce24bJIj5JcW8fkAAohVEBVCBgAxgCwUkMPDtlgKaAhpLtpeGynLM95m5isx0r9Q0VgACYKLLwyFUgEYWzgCFoUi1UOr2Si93sFKmCWvFIwNA6r3BzOayXljn9B60zDQTCOEA5N0S9Ks7MNk4gdTdtaFAoQyflS2YujiG95qhitMlHMDs6jxIfftlp6VleL18jjYAokDi8ca2yNFiEdRDQ5XIKhBbAGbvp+tHrgqQ+XCbBWEzwPpgs3WcFiJrnlBe5rIHVctpmDzS5tCgUILufl3MHtC9fmPJ0XVooIgrdc4efuyIsSpACiTbNltbp9VqG+/unf/Z0mMFkGw19YFMtpu+AAxzCnysbcMwr4hpIQLAzXVoqMheIK4kDIBZoFcgdoWbucbaQr8ZZn242zcFa45QbNQJwNdCHrSMDIm28UoxyhVB6qkw8dTSf0cWgBMgL19xQhX4dwBoLmQXj5QCCMCFAS4u5Idxv1aMAMJgO9Qh5lUQ77z4Bwdvhmn5UQEaQ7zjqABvhmn5UQEaQ7zj33PBL0AZ150JAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Dan</td>
+    <td>Age</td>
+    <td>Political Advisor</td>
+    <td>Russia <img class="icon icons8-Russian-Federation" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAyUlEQVRoQ+2ZwQnDMAxF7UXaLFI6QE6dNKcMULpIm0VSaIghGALiCxuVl7MlWe8JhElOwb8c/P6JBnobxAAGRAKMkAhQDi8G3p9llbM1TDBcL7+700BD6IdSGOhFfq+LAQyIBBghEaAcXhm4P+ZQm/g5jcdNTAPyUNgSYMDGy/80BvyZ2jJiwMbL//T/GVhvKdQmzq/tOVzexDTgP+anGTHQGHhVDgMYEAkwQiJAObwyIGfslIAfHJ3Al7IYwIBIgBESAcrh4Q18AQTxbjFuX07rAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Jermey</td>
+    <td>Age</td>
+    <td>Military Staff</td>
+    <td>United States <img class="icon icons8-USA" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABaklEQVRoQ2NkGOKAcYi7n2HUAwMdg6MxMBoDFIbAaBKiMAAp1j48YuD///+MDkHb/lEcHGgGbP3USG0j4ebx7D0FDnwwMWw8wMPFwuDhJMOwZssDsE9J5RtoC4H1Xbj6DkzTPQbm9NkwqCjwMdR0nGU4cuolAyn8O/c/MczptwU7PKXwMMOL198Z1s6zoVUS+i8iyM+EkYRCfBQYVBT5GKbMvcbw5dsfBlL5OUlaYAdPmXcNTNPdA9QOrgHxAKnpHl09cj6gex4AxQAp6R49n6Dng7l3K6gdqYSLUVLTPbp65HwwIDFAzSCjex6gZvofkFKImul/WNQDQz4PjHoAT4mC0Rp9++ET1ZvT1CzR0MzCbAuNeoCGwY3FaMwY+OpiPpSSEANGHhj1AH2TEGYMjGZi+sbAMCxGRzMxfZPQMCtG6Rx4VLVueAzuUjVI6GzYaAzQOcAxrBuNgdEYoDAERpMQhQFIsfYhHwMAXzqwQIgXHvsAAAAASUVORK5CYII="></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Jose</td>
+    <td>Age</td>
+    <td>Military Staff</td>
+    <td>Mexico <img class="icon icons8-Mexico" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAClElEQVRoQ+2ZTUjTcRjHP0tz7kW3NRXXqNzsUAnNoBZ48JVOXUKkF4gOGREWdAmhQ0FQl252kOooFGH0QmSRQ4SokUkukzSdoea0qZu65l7dS2QpRXVwO/gXfv/78+f5vjwvPD8Z6/yTrfP8EQDWWkGhgFAgTQaEhdIkMO3wFQWMJ4qSqfytt6k3lbCVmCmdJqX4En6OAAFAKCAs9KuERBGn1EtAdKFl4oSFfrNQIh5bGjH2h82M99ixlNWwvfowWarcv4wmOQv5/W4+fnhOzP4SpdGAra2DudkwhgItxy/fQF9s+QOE5AB4PV9wtDSSFfCQZy7ladsrIsEokegiKl0eF+90SheAx+VgauQR8k3lzDn7iLqdPHjmQCNPos2MEU4kqKo9ifXIOWnuQrHFAJMTPXjH+jHkKOh6fJ/xyQUMJVYC7lEGh12Yd1qov9osPQBP2q5RZirlqyeKe/gW/m/zeIZUTIWy8Pv81J4+j2twAIXBhKowQGX5mSUQEqmBJO86ruCTF3PdNkKN0U+5Msi0rAD7i24W/F5yFGosNQc4dLSentdNWKsvkZG5USoAYGbaydBgJ32hfG539yOPhInptNTNt2LWb+BepJJTu02olRkkEmEqKs5KSQFIJhK8ab/AmKKKu84MzLYW+hUxZvU6dKE4wS3FNFaUYgx1sWN/A2p1obQA/MgmGY/R2n6TgblsFM5hdjlsTMRlyJU6ug42ULf5M3v3HUOrMUqviJczCgdncI2+xRcJ8v5ThPz5CPJtHrL1RezZaiLXYJXuHPjXQuoLLaBRqP+7q0qkC6W4S0unjQoAq2ZAnFWWKRNnFXFWEWcViRx3V93HJBIgHjjWWgihgFAgTQaEhdIkMO3wda/Ad81TXUCsyrhQAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Sergio</td>
+    <td>Age</td>
+    <td>Military Staff</td>
+    <td>United States <img class="icon icons8-USA" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABaklEQVRoQ2NkGOKAcYi7n2HUAwMdg6MxMBoDFIbAaBKiMAAp1j48YuD///+MDkHb/lEcHGgGbP3USG0j4ebx7D0FDnwwMWw8wMPFwuDhJMOwZssDsE9J5RtoC4H1Xbj6DkzTPQbm9NkwqCjwMdR0nGU4cuolAyn8O/c/MczptwU7PKXwMMOL198Z1s6zoVUS+i8iyM+EkYRCfBQYVBT5GKbMvcbw5dsfBlL5OUlaYAdPmXcNTNPdA9QOrgHxAKnpHl09cj6gex4AxQAp6R49n6Dng7l3K6gdqYSLUVLTPbp65HwwIDFAzSCjex6gZvofkFKImul/WNQDQz4PjHoAT4mC0Rp9++ET1ZvT1CzR0MzCbAuNeoCGwY3FaMwY+OpiPpSSEANGHhj1AH2TEGYMjGZi+sbAMCxGRzMxfZPQMCtG6Rx4VLVueAzuUjVI6GzYaAzQOcAxrBuNgdEYoDAERpMQhQFIsfYhHwMAXzqwQIgXHvsAAAAASUVORK5CYII="> </td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Lewis</td>
+    <td>Age</td>
+    <td>Ambassador</td>
+    <td>United Kingdom <img class="icon icons8-Great-Britain" width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFUklEQVRoQ+1YXUybVRh+Kj8iBQpjc2WaZSSjCbBsYypGo8CcUcfPhcJst8QMC9vN/vi5kGSTOSVxXsiYbCbjp2wXSsuPXkCZ3jhA45KpYzMbJpQEohtjyRijtJUg+Jn31FO/r18LfIPGQXoSLvh6ft7nfZ9zzvMcFZZ5Uy3z+BEE8H9XMFiBYAUWmYEghRaZwEUPXzkV+NtuF1TR0Z6MOJwzaO0YwoUWm6IsdX+VzfqPvJguGbfuxyvs/6y3uhTNR50L9UnIz1wNWNsw2VjPxj91+SeWfE8FRl7NEjSl5YjMzpUsMDhkxxlTP67dvL+ghZcSwNbUVThoTMH6cRvGqz7E7OgdFkPkzhzEVX4gBXD7hecE+jE8bRs0R8oQptNJAr743S2cNfXD4ZqZE8hSAIiKDMUBYwpeS34ME6dPYaq3h60ZujEJsSVlCN/2DFQqlRTAnz2XhPGPTkBwOllntd6AGOM+eNOqyTyAduuwXxCLBVCQuwGFeh2EZhMcLWYIDgdUajViivdDrd/tWVcGoMk8IOzN1sLeWA9ni5l1DNEmQFNSioiMLEnAfTfGcNb0GwaH7TIgDwtg44YYHDAmI3V6mGX9L9sAmzvi5QxoSsoQkrBOspYMQOabVkG75glUHN6C1LB7mKj5FNPX+tggolXcsUrZJGyTW2wSWikFQHTZq09CQdZqFrirq/Pf5GkRd+w4o4u40V48+dl1WOpekVKIAPCOb2x/GgeLUqDqaIW9oc5Dq+iifaA/caPT6mTtdfxw5S77rATAS+lrUXFoC1SdrazyRBdq0cZiRBfvl67jmmGB83V6vs7xD4BGUmYKDTrkZ8ZjoqYarotWD62oGt6ZIVp9UvsrzOe2s35zHaNU6fcObcam8DFMnK7GdN9Vd6W3piHu/eOySrd1DuO8eUBS6XkBcPjEzYrDm7H+vg0PaqoxM+i+FyIyMqE5UipbjI/zB6DJbENhjhZ2Uz2cFr7XtIzn3nuN6HKmsd/nXlswAB4QOx0MOghfmuCwNDNaqaKiEFNEp4NBtpn9AZjq7WZnOqeL+m0DYoq8TjvXDMs4Zd5fkwEQBMGzB/yOUvCDPwAKppizq+wUWvYA+E28VBkK9DwyLRQEEOiUe82/8iqw7Dfxsgcg1kJiunGxtSsvUcLC2Tsj7EISywBNSbnHR/i7B+h2JaMibtNXf8F41QnMjo6yz2Sq6JZv674nE4t83IJuYibqjCmIUod61hMmJ5lO59aOtDoFbk/fwa79qgq3epxLC5GII7FImkjcJhvqZLe8kFuA2sab+Lb7tqTvnAC4Nk/bFC8ZRDJgouaUx9pxGXChaxRtHUNMbC1UjVJlC/ISmd8VN6osicep73vZ57AkHWKPVuLGdLzEg/gEQJPm5ybiXYOPSX1Yu/7HE2Via6EAeNCULKqGN63cyar20Io7xPPWUbR3DsH6xetSOX30458Foov2SR9l9bJ2Qt4uFvg3l27JTn+lAPgE3INQEnljdLU0Y9LUwD6ReCTVan92BxLWRkoBeJ9C7o3130sAWTtySO09YzJtLkbxsABoDgqeqkFgvGlFfl3sENd8fs43AELty9r9viqJZX2+55XFAOBBs+eUohQQvcTNZe1kVpekvOwmpgo4Lc0ea0enS5R+N1R7jPNq86WqgDcfuQfxphXZz9jScmkF7r6zR+Bui1u7y3+EMB8631tQoADQvHTUUjXo6BU3mR8gNRqidVu7B8nPs8Dno4tsBys09b7G+/tGtKIXE353yAAomexR6rtyXqcfpawqiSVYASXZCkTfYAUCkVUlcwYroCRbgei77CvwD25qyU/KuZXDAAAAAElFTkSuQmCC"></td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Rank</td>
+    <td>Country</td>
+    <td>Test</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Rank</td>
+    <td>Country</td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Rank</td>
+    <td>Country</td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Rank</td>
+    <td>Country</td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Rank</td>
+    <td>Country</td>
+    <td>Socialist</td>
+    <td>Video games</td>
+  </tr>
+
+
+
+</table>
 
 </body>
+
+
 </html>
